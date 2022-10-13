@@ -1,7 +1,38 @@
-.container {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #000;
-    position: relative;
-    overflow: hidden;
+header {
+    width: 80%;
+    margin: 0 auto;
 }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0;
+  }
+  .item-nav {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .item-nav a {
+    color: blue;
+  }
+  
+  .item-nav a:hover {
+    color: red;
+  }

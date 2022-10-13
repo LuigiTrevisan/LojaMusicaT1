@@ -1,5 +1,10 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 header {
-    width: 80%;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,11 +27,7 @@ header {
   }
   .item-nav {
     float: left;
-    display: block;
-    color: black;
-    text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
   }
 
   .item-nav a {
@@ -34,5 +35,34 @@ header {
   }
   
   .item-nav a:hover {
-    color: red;
+    background-color: red;
   }
+
+main {
+    text-align: center;
+    margin: 50px;
+}
+
+main h1 {
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.card {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+.card-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-text {
+  margin: 15px 0;
+}
+.card-img {
+  width: 100px;
+  margin: 20px 0;
+}

@@ -1,7 +1,7 @@
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-header {
+header, footer {
     border: 3px solid black;
     border-radius: 20px;
     width: 100%;
@@ -35,7 +35,8 @@ header {
   }
   
   .item-nav a:hover {
-    background-color: red;
+    color: darkblue;
+    text-decoration: none;
   }
 
 main {
@@ -65,4 +66,9 @@ main h1 {
 .card-img {
   width: 100px;
   margin: 20px 0;
+}
+
+.btn-toolbar {
+  flex-wrap: nowrap;
+  justify-content: center;
 }
